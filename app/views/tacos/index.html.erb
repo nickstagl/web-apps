@@ -1,0 +1,22 @@
+<% 
+ fillings = ["carnitas", "salsa", "al pastor"]
+%>
+
+<h1>Tacos!</h1>
+<p>blah blah blah</p>
+
+<%#= #makes comment fillings %> 
+
+<ul>
+  <% for filling in fillings %>
+    <li><%= filling %></li>
+  <% end %>
+
+  <!---
+  <li>salsa</li>
+  <li>al pastor</li>
+  will be seen by front end
+  -->
+
+
+</ul>
